@@ -77,7 +77,7 @@
       "attributes": {
         "tokenTier": "intent"
       },
-      "value": "{color.neutral.500}"
+      "value": "{color.neutral.base}"
     },
 
     "neutral-hover": {

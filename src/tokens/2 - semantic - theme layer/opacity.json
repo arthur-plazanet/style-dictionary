@@ -1,0 +1,10 @@
+{
+  "opacity": {
+    "value": {
+      "transparent": 0,
+      "semiTransparent": 0.5,
+      "opaque": 1
+    }
+  },
+  "attributes": { "tokenTier": "primitive" }
+}

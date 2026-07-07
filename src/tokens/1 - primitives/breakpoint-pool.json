@@ -1,0 +1,141 @@
+{
+  "breakpoint-pool": {
+    "tailwind": {
+      "sm": { "value": "640px" },
+      "md": { "value": "768px" },
+      "lg": { "value": "1024px" },
+      "xl": { "value": "1280px" },
+      "2xl": { "value": "1536px" }
+    },
+    "bootstrap": {
+      "xs": { "value": "0px" },
+      "sm": { "value": "576px" },
+      "md": { "value": "768px" },
+      "lg": { "value": "992px" },
+      "xl": { "value": "1200px" },
+      "xxl": { "value": "1400px" }
+    },
+    "material-ui": {
+      "xs": { "value": "0px" },
+      "sm": { "value": "600px" },
+      "md": { "value": "900px" },
+      "lg": { "value": "1200px" },
+      "xl": { "value": "1536px" }
+    },
+    "ant-design": {
+      "xs": { "value": "480px" },
+      "sm": { "value": "576px" },
+      "md": { "value": "768px" },
+      "lg": { "value": "992px" },
+      "xl": { "value": "1200px" },
+      "xxl": { "value": "1600px" }
+    },
+    "chakra-ui": {
+      "sm": { "value": "480px" },
+      "md": { "value": "768px" },
+      "lg": { "value": "992px" },
+      "xl": { "value": "1280px" },
+      "2xl": { "value": "1536px" }
+    },
+    "foundation": {
+      "small": { "value": "640px" },
+      "medium": { "value": "1024px" },
+      "large": { "value": "1200px" },
+      "xlarge": { "value": "1440px" },
+      "xxlarge": { "value": "1920px" }
+    },
+    "ibm-carbon": {
+      "sm": { "value": "320px" },
+      "md": { "value": "672px" },
+      "lg": { "value": "1056px" },
+      "xl": { "value": "1312px" },
+      "max": { "value": "1584px" }
+    },
+    "atlassian": {
+      "sm": { "value": "600px" },
+      "md": { "value": "900px" },
+      "lg": { "value": "1200px" },
+      "xl": { "value": "1600px" }
+    },
+    "shopify-polaris": {
+      "xs": { "value": "0px" },
+      "sm": { "value": "490px" },
+      "md": { "value": "768px" },
+      "lg": { "value": "1040px" },
+      "xl": { "value": "1440px" }
+    },
+    "govuk": {
+      "mobile": { "value": "0px" },
+      "tablet": { "value": "641px" },
+      "desktop": { "value": "1020px" }
+    },
+    "apple": {
+      "iphone": { "value": "390px" },
+      "iphonePlus": { "value": "428px" },
+      "ipad": { "value": "768px" },
+      "ipadPro": { "value": "1024px" },
+      "desktop": { "value": "1440px" }
+    },
+    "ultra-wide": {
+      "desktop": { "value": "1440px" },
+      "wide": { "value": "1920px" },
+      "ultra": { "value": "2560px" },
+      "max": { "value": "3200px" }
+    },
+    "bulma": {
+      "tablet": { "value": "769px" },
+      "desktop": { "value": "1024px" },
+      "widescreen": { "value": "1216px" },
+      "fullhd": { "value": "1408px" }
+    },
+    "primer": {
+      "sm": { "value": "544px" },
+      "md": { "value": "768px" },
+      "lg": { "value": "1012px" },
+      "xl": { "value": "1280px" }
+    },
+    "fluent-ui": {
+      "sm": { "value": "480px" },
+      "md": { "value": "640px" },
+      "lg": { "value": "1024px" },
+      "xl": { "value": "1366px" }
+    },
+    "adobe-spectrum": {
+      "s": { "value": "640px" },
+      "m": { "value": "768px" },
+      "l": { "value": "1024px" },
+      "xl": { "value": "1280px" },
+      "xxl": { "value": "1536px" }
+    },
+    "salesforce-lightning": {
+      "small": { "value": "480px" },
+      "medium": { "value": "768px" },
+      "large": { "value": "1024px" },
+      "xlarge": { "value": "1200px" }
+    },
+    "mantine": {
+      "xs": { "value": "480px" },
+      "sm": { "value": "768px" },
+      "md": { "value": "1024px" },
+      "lg": { "value": "1184px" },
+      "xl": { "value": "1440px" }
+    },
+    "vuetify": {
+      "xs": { "value": "0px" },
+      "sm": { "value": "600px" },
+      "md": { "value": "960px" },
+      "lg": { "value": "1280px" },
+      "xl": { "value": "1920px" },
+      "xxl": { "value": "2560px" }
+    },
+    "open-props": {
+      "xxs": { "value": "240px" },
+      "xs": { "value": "360px" },
+      "sm": { "value": "480px" },
+      "md": { "value": "768px" },
+      "lg": { "value": "1024px" },
+      "xl": { "value": "1440px" },
+      "xxl": { "value": "1920px" }
+    }
+  }
+}

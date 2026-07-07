@@ -1,0 +1,33 @@
+{
+  "font": {
+    "scale": {
+      "0": {
+        "value": "clamp(0.875rem, 0.630rem + 1.087vw, 1.500rem)"
+      },
+      "1": {
+        "value": "clamp(0.984rem, 0.665rem + 1.418vw, 1.800rem)"
+      },
+      "2": {
+        "value": "clamp(1.107rem, 0.696rem + 1.831vw, 2.160rem)"
+      },
+      "3": {
+        "value": "clamp(1.246rem, 0.719rem + 2.341vw, 2.592rem)"
+      },
+      "4": {
+        "value": "clamp(1.402rem, 0.733rem + 2.972vw, 3.110rem)"
+      },
+      "5": {
+        "value": "clamp(1.577rem, 0.733rem + 3.749vw, 3.732rem)"
+      },
+      "6": {
+        "value": "clamp(1.774rem, 0.715rem + 4.705vw, 4.479rem)"
+      },
+      "7": {
+        "value": "clamp(1.996rem, 0.673rem + 5.877vw, 5.375rem)"
+      },
+      "8": {
+        "value": "clamp(2.245rem, 0.600rem + 7.312vw, 6.450rem)"
+      }
+    }
+  }
+}

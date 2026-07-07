@@ -1,0 +1,17 @@
+{
+  "theme": {
+    "stack-index": {
+      "default": { "value": "var(--stacking-base)" },
+      "root": { "value": "var(--stacking-base)" },
+      "overlay": { "value": "calc(var(--stacking-base) + var(--stacking-scale-ratio))" },
+      "hidden": { "value": "calc(var(--stacking-base) - var(--stacking-scale-ratio))" }
+    },
+    "opacity": {
+      "hidden": { "value": "var(--opacity-0)" },
+      "half": { "value": "var(--opacity-50)" },
+      "visible": { "value": "var(--opacity-100)" }
+    },
+
+    "attributes": { "tokenTier": "theme", "type": "stacking" }
+  }
+}

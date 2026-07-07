@@ -5,10 +5,10 @@
         "value": "var(--layout-gutter-sm)"
       },
       "on": {
-        "value": "initial"
+        "value": "var(--is-toggled)"
       },
       "off": {
-        "value": ""
+        "value": "var(--is-not-toggled)"
       }
     }
   }

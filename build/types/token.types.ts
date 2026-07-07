@@ -22,11 +22,15 @@ export interface DesignTokens {
       default: string;
     };
     radius: {
+      '0': string;
       '1': string;
       '2': string;
       '4': string;
-      base: string;
-      '0.5': string;
+      '5': string;
+      '6': string;
+      '8': string;
+      '10': string;
+      '9999': string;
       scale: string;
     };
   };
@@ -227,6 +231,90 @@ export interface DesignTokens {
       base: string;
     };
     'vanilla-cream': {
+      '100': string;
+      '200': string;
+      '300': string;
+      '400': string;
+      '500': string;
+      '600': string;
+      '700': string;
+      '800': string;
+      '900': string;
+      base: string;
+    };
+    'blue-tz': {
+      '100': string;
+      '200': string;
+      '300': string;
+      '400': string;
+      '500': string;
+      '600': string;
+      '700': string;
+      '800': string;
+      '900': string;
+      base: string;
+    };
+    'eastern-blue': {
+      '100': string;
+      '200': string;
+      '300': string;
+      '400': string;
+      '500': string;
+      '600': string;
+      '700': string;
+      '800': string;
+      '900': string;
+      base: string;
+    };
+    'yellow-sun': {
+      '100': string;
+      '200': string;
+      '300': string;
+      '400': string;
+      '500': string;
+      '600': string;
+      '700': string;
+      '800': string;
+      '900': string;
+      base: string;
+    };
+    'yellow-tz': {
+      '100': string;
+      '200': string;
+      '300': string;
+      '400': string;
+      '500': string;
+      '600': string;
+      '700': string;
+      '800': string;
+      '900': string;
+      base: string;
+    };
+    'blue-sun-light': {
+      '100': string;
+      '200': string;
+      '300': string;
+      '400': string;
+      '500': string;
+      '600': string;
+      '700': string;
+      '800': string;
+      '900': string;
+      base: string;
+    };
+    'river-bed-my-pant': {
+      '100': string;
+      '200': string;
+      '300': string;
+      '400': string;
+      '500': string;
+      '600': string;
+      '700': string;
+      '800': string;
+      '900': string;
+      base: string;
+    };
+    grey: {
       '100': string;
       '200': string;
       '300': string;
@@ -498,15 +586,6 @@ export interface DesignTokens {
     };
   };
   font: {
-    scale: {
-      '0': string;
-      '1': string;
-      '2': string;
-      '3': string;
-      '4': string;
-      '0-2': string;
-      '0-1': string;
-    };
     minFont: string;
     maxFont: string;
     minViewport: string;
@@ -515,20 +594,44 @@ export interface DesignTokens {
     scaleMax: string;
     steps: string;
     weight: {
+      thin: string;
       light: string;
       normal: string;
       medium: string;
       bold: string;
+      black: string;
+    };
+    lineHeight: {
+      '1': string;
+      '2': string;
+      '3': string;
+      '4': string;
+      '5': string;
+      '6': string;
+      '7': string;
+      '8': string;
+    };
+    scale: {
+      '0': string;
+      '1': string;
+      '2': string;
+      '3': string;
+      '4': string;
+      '5': string;
+      '6': string;
+      '7': string;
+      '8': string;
     };
   };
+  opacity: string;
   shadow: {
-    base: string;
-    scale: string;
     xs: string;
     sm: string;
     md: string;
     lg: string;
     xl: string;
+    base: string;
+    scale: string;
   };
   space: {
     fluid: {
@@ -552,34 +655,10 @@ export interface DesignTokens {
       xxl: string;
     };
   };
-  text: {
-    body: {
-      size: string;
-      lineHeight: string;
-      weight: string;
-    };
-    caption: {
-      size: string;
-      lineHeight: string;
-      weight: string;
-    };
-    small: {
-      size: string;
-      lineHeight: string;
-      weight: string;
-    };
-  };
-  heading: {
-    h1: {
-      size: string;
-      lineHeight: string;
-      weight: string;
-    };
-    h2: {
-      size: string;
-      lineHeight: string;
-      weight: string;
-    };
+  stacking: {
+    '1': string;
+    base: string;
+    'scale-ratio': string;
   };
   layout: {
     breakAt: string;
@@ -619,6 +698,23 @@ export interface DesignTokens {
       padding: string;
     };
   };
+  theme: {
+    radius: string;
+    'shadow-base': string;
+    'shadow-base-all': string;
+    'shadow-scale': string;
+    'stack-index': {
+      default: string;
+      root: string;
+      overlay: string;
+      hidden: string;
+    };
+    opacity: {
+      hidden: string;
+      half: string;
+      visible: string;
+    };
+  };
   radius: {
     light: string;
     medium: string;
@@ -652,6 +748,45 @@ export interface DesignTokens {
     info: string;
     warning: string;
     success: string;
+  };
+  text: {
+    body: {
+      size: string;
+      lineHeight: string;
+      weight: string;
+    };
+    caption: {
+      size: string;
+      lineHeight: string;
+      weight: string;
+    };
+    small: {
+      size: string;
+      lineHeight: string;
+      weight: string;
+    };
+  };
+  heading: {
+    h1: {
+      size: string;
+      lineHeight: string;
+      weight: string;
+    };
+    h2: {
+      size: string;
+      lineHeight: string;
+      weight: string;
+    };
+    h3: {
+      size: string;
+      lineHeight: string;
+      weight: string;
+    };
+    h4: {
+      size: string;
+      lineHeight: string;
+      weight: string;
+    };
   };
   component: {
     bg: {
@@ -688,6 +823,9 @@ export interface DesignTokens {
   };
   cube: {
     block: {
+      'block-padding-x': string;
+      'block-padding-y': string;
+      'block-padding': string;
       card: {
         bg: string;
         border: string;
@@ -711,6 +849,17 @@ export interface DesignTokens {
         border: string;
         radius: string;
         padding: string;
+        'stacking-index': string;
+        opacity: string;
+      };
+      menu: {
+        gap: string;
+        'gap-dense': string;
+        'padding-top': string;
+        'padding-bottom': string;
+        'padding-top-dense': string;
+        'padding-bottom-dense': string;
+        'stacking-index': string;
       };
     };
     composition: {
@@ -822,11 +971,11 @@ export interface DesignTokens {
         'top-lg': string;
         'top-xl': string;
         'bottom-0': string;
+        block: string;
+        'block-x': string;
+        'block-y': string;
       };
-      text: {
-        center: string;
-        dim: string;
-      };
+      'text-center': string;
       border: {
         solid: string;
         dashed: string;
@@ -907,6 +1056,11 @@ export interface DesignTokens {
         h4: string;
         h5: string;
         h6: string;
+      };
+      text: {
+        body: string;
+        caption: string;
+        small: string;
       };
     };
   };
@@ -1081,5 +1235,11 @@ export interface DesignTokens {
       scaler: string;
       left: string;
     };
+  };
+  tricks: {
+    'is-toggled': string;
+    'is-not-toggled': string;
+    on: string;
+    off: string;
   };
 }

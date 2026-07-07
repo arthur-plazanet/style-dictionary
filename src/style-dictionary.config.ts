@@ -142,7 +142,16 @@ export default {
         },
         ...colorConfig,
         ...cubeConfig,
-        ...generateThemeFiles(['components', 'font', 'bg', 'border', 'text', 'variant']),
+        ...generateThemeFiles([
+          'components',
+          'font',
+          'bg',
+          'border',
+          'text',
+          'variant',
+          'stacking',
+          'tricks'
+        ]),
       ],
     },
     // Type declarations

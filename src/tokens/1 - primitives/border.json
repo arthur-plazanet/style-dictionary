@@ -26,15 +26,12 @@
       }
     },
     "radius": {
-      "base": {
+      "0": {
         "value": 0
       },
       // Inside Primitives, there could be any raw value as needed to build tokens.
       // If you decide one day to change your branding, updating these values shouldn't bu a high priority.
       // See Primitives as nothing more than a "pool" of eventual variable that you eventually will use to build your design system.
-      "0.5": {
-        "value": "0.5px"
-      },
       "1": {
         "value": "1px"
       },
@@ -43,6 +40,21 @@
       },
       "4": {
         "value": "4px"
+      },
+      "5": {
+        "value": "5px"
+      },
+      "6": {
+        "value": "6px"
+      },
+      "8": {
+        "value": "8px"
+      },
+      "10": {
+        "value": "10px"
+      },
+      "9999": {
+        "value": "9999px"
       },
 
       // If you prefer to use a scale for border-radius, you can define it here.

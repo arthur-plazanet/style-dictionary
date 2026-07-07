@@ -6,20 +6,35 @@ export function isPrimitiveColor(token: Token) {
 }
 
 export function isSemanticColor(token: Token) {
-  return token.attributes?.tokenTier === 'semantic' && token.attributes?.category === 'color'
+  return (
+    token.attributes?.tokenTier === 'semantic' &&
+    token.attributes?.category === 'color' &&
+    token.attributes?.theme !== 'tanzlate'
+  )
 }
 
 export function isIntentColor(token: Token) {
-  return token.attributes?.tokenTier === 'intent' && token.attributes?.category === 'color'
+  return (
+    token.attributes?.tokenTier === 'intent' &&
+    token.attributes?.category === 'color' &&
+    token.attributes?.theme !== 'tanzlate'
+  )
 }
 
 export function isPoolColor(token: Token) {
-  return token.attributes?.tokenTier === 'color-pool' && token.attributes?.category === 'color-pool'
+  return (
+    token.attributes?.tokenTier === 'color-pool' &&
+    token.attributes?.category === 'color-pool' &&
+    token.attributes?.theme !== 'tanzlate'
+  )
 }
 
 export function isColorToken(token: Token) {
   return (
-    isPoolColor(token) || isPrimitiveColor(token) || isSemanticColor(token) || isIntentColor(token)
+    isPoolColor(token) ||
+    isSemanticColor(token) ||
+    isIntentColor(token) ||
+    (isPrimitiveColor(token) && token.attributes?.theme !== 'tanzlate')
   )
 }
 

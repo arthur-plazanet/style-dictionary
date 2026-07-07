@@ -7,7 +7,7 @@ interface RefToken extends TransformedToken {
   ref?: string[]
 }
 
-export function tokenName(token: Token) {
+export function getTokenName(token: Token) {
   const attrs = token.attributes
   const path = attrs?.item ? [attrs.category, attrs.type, attrs.item] : token.path
   return path.join('-')
@@ -63,7 +63,11 @@ const cssValue = (v: unknown): string => {
   return JSON.stringify(v)
 }
 
-export function rewriteOriginalRefs(originalValue: unknown, dictionaryTokens: Dictionary['tokens'], privateVar: boolean): string | null {
+export function rewriteOriginalRefs(
+  originalValue: unknown,
+  dictionaryTokens: Dictionary['tokens'],
+  privateVar: boolean,
+): string | null {
   if (typeof originalValue !== 'string' || !usesReferences(originalValue)) return null
 
   const refs = getReferences(originalValue, dictionaryTokens)
@@ -76,7 +80,11 @@ export function rewriteOriginalRefs(originalValue: unknown, dictionaryTokens: Di
   return out
 }
 
-export function shouldOutputReferences(token: Token, options: LocalOptions, dictionary: Dictionary): boolean {
+export function shouldOutputReferences(
+  token: Token,
+  options: LocalOptions,
+  dictionary: Dictionary,
+): boolean {
   const originalValue = token.original?.value
   if (!usesReferences(originalValue)) return false
   const originalValueParsed = cssValue(originalValue)

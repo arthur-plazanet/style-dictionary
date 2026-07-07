@@ -13,6 +13,10 @@ const __dirname = path.dirname(__filename)
 
 const INPUT_FILE = path.join(__dirname, `../src/tokens/1 - primitives/font.json`)
 const PRIMITIVES_OUT = path.join(__dirname, `../src/tokens/1 - primitives/font-scale.json`)
+const SEMANTIC_OUT = path.join(
+  __dirname,
+  '../src/tokens/2 - semantic - theme layer/font-scale.json',
+)
 const INTENT_OUT = path.join(__dirname, '../src/tokens/3 - intent/font.json')
 
 // -----------------------------------
@@ -32,12 +36,12 @@ export function generateTypographyTokens() {
 
   const config = {
     minFont: configToken.minFont?.value ?? 16,
-    maxFont: configToken.maxFont?.value ?? 20,
+    maxFont: configToken.maxFont?.value ?? 18,
     minViewport: configToken.minViewport?.value ?? 360,
     maxViewport: configToken.maxViewport?.value ?? 1280,
-    scaleMin: configToken.scaleMin?.value ?? 1.2,
+    scaleMin: configToken.scaleMin?.value ?? 1.125,
     scaleMax: configToken.scaleMax?.value ?? 1.25,
-    steps: configToken.steps?.value ?? [0, 1, 2, 3, 4, 5, 6],
+    steps: configToken.steps?.value ?? [0.2, 0.1, 1, 2, 3, 4, 5, 6],
   }
 
   // -----------------------------------
@@ -50,14 +54,14 @@ export function generateTypographyTokens() {
   // Output primitive scale tokens
   // -----------------------------------
 
-  const primitives = {
+  const semantic = {
     font: {
       scale: Object.fromEntries(Object.entries(scale).map(([step, value]) => [step, { value }])),
     },
   }
 
   // -----------------------------------
-  // Define intent tokens
+  // Define semantic tokens
   // -----------------------------------
 
   const intent = {
@@ -132,7 +136,7 @@ export function generateTypographyTokens() {
     fs.writeFileSync(file, JSON.stringify(data, null, 2))
   }
 
-  writeJSON(PRIMITIVES_OUT, primitives)
-  // writeJSON(SEMANTIC_OUT, semantic);
-  writeJSON(INTENT_OUT, intent)
+  // writeJSON(PRIMITIVES_OUT, primitives)
+  writeJSON(SEMANTIC_OUT, semantic)
+  // writeJSON(INTENT_OUT, intent)
 }

@@ -1,0 +1,19 @@
+{
+  "tricks": {
+    "is-toggled": {
+      "value": ""
+    },
+    "is-not-toggled": {
+      "value": "initial"
+    },
+    "on": {
+      "value": "var(--is-toggled)"
+    },
+    "off": {
+      "value": "var(--is-not-toggled)"
+    },
+    "attributes": {
+      "description": "https://github.com/propjockey/css-sweeper?tab=readme-ov-file#css-is-a-programming-language-thanks-to-the-space-toggle-trick"
+    }
+  }
+}

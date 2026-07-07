@@ -1,23 +1,44 @@
 {
   "cube": {
     "block": {
+      "block-padding-x": { "value": "var(--spacing-xs)" },
+      "block-padding-y": { "value": "var(--spacing-md)" },
+      "block-padding": { "value": "var(--block-padding-y) var(--block-padding-x)" },
+
       "card": {
-        "bg": { "value": "var(--_color-bg-neutral)" },
-        "border": { "value": "var(--_color-border-subtle)" },
-        "radius": { "value": "var(--_border-radius-medium)" },
-        "padding": { "value": "var(--_spacing-md)" }
+        "bg": { "value": "var(--color-bg-neutral)" },
+        "border": { "value": "var(--color-border-subtle)" },
+        "radius": { "value": "var(--border-radius-medium)" },
+        "padding": { "value": "var(--cube-block-block-padding)" }
       },
       "button": {
-        "paddingX": { "value": "var(--_spacing-sm)" },
-        "paddingY": { "value": "var(--_spacing-xs)" },
-        "radius": { "value": "var(--_border-radius-medium)" },
-        "text": { "value": "var(--_color-text-primary)" },
-        "bg": { "value": "var(--_color-bg-primary)" },
-        "bg-hover": { "value": "var(--_color-bg-primary-hover)" }
+        "paddingX": { "value": "var(--spacing-xs)" },
+        "paddingY": { "value": "var(--spacing-md)" },
+        "radius": { "value": "var(--border-radius-medium)" },
+        "text": { "value": "var(--color-text-primary)" },
+        "bg": { "value": "var(--color-bg-primary)" },
+        "bg-hover": { "value": "var(--color-bg-primary-hover)" }
       },
       "checkbox": {
-        "bg": { "value": "var(--_color-bg-primary)" },
-        "padding": { "value": "var(--_spacing-xs)" }
+        "bg": { "value": "var(--color-bg-primary)" },
+        "padding": { "value": "var(--spacing-xs)" }
+      },
+      "dialog": {
+        "bg": { "value": "var(--color-bg-neutral)" },
+        "border": { "value": "var(--color-border-subtle)" },
+        "radius": { "value": "var(--border-radius-large)" },
+        "padding": { "value": "var(--spacing-lg)" },
+        "stacking-index": { "value": "var(--stacking-overlay)" },
+        "opacity": { "value": "var(--opacity-100)" }
+      },
+      "menu": {
+        "gap": { "value": "var(--spacing-md)" },
+        "gap-dense": { "value": "var(--spacing-sm)" },
+        "padding-top": { "value": "var(--spacing-md)" },
+        "padding-bottom": { "value": "var(--spacing-md)" },
+        "padding-top-dense": { "value": "var(--spacing-sm)" },
+        "padding-bottom-dense": { "value": "var(--spacing-sm)" },
+        "stacking-index": { "value": "var(--stacking-overlay)" }
       }
     }
   }

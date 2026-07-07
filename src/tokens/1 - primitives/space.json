@@ -4,7 +4,7 @@
       "min": { "value": "1rem" },
       "max": { "value": "1.5rem" },
       "min_viewport": { "value": "360px" },
-      "max_viewport": { "value": "1280px" }
+      "max_viewport": { "value": "1920px" }
     },
     "unit": {
       "default": { "value": "1rem" },

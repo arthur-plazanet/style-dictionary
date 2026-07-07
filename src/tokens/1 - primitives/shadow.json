@@ -1,20 +1,20 @@
 {
   "shadow": {
-    // "xs": {
-    //   "value": 0.25
-    // },
-    // "sm": {
-    //   "value": 0.5
-    // },
-    // "md": {
-    //   "value": 1
-    // },
-    // "lg": {
-    //   "value": 2
-    // },
-    // "xl": {
-    //   "value": 4
-    // },
+    "xs": {
+      "value": 0.25
+    },
+    "sm": {
+      "value": 0.5
+    },
+    "md": {
+      "value": 1
+    },
+    "lg": {
+      "value": 2
+    },
+    "xl": {
+      "value": 4
+    },
     // If you prefer rely on a personal scale
     "base": {
       "value": 1

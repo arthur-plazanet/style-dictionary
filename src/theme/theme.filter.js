@@ -1,4 +1,5 @@
 const themeCategories = [
+  'theme',
   'space',
   'spacing',
   'border',

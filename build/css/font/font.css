@@ -3,22 +3,34 @@
  */
 
 :root {
-  --font-scale-0: clamp(0.875rem, 0.6304347826086957rem + 1.0869565217391304vw, 1.5rem);
-  --font-scale-1: clamp(0.984375rem, 0.6652173913043479rem + 1.418478260869565vw, 1.7999999999999998rem);
-  --font-scale-2: clamp(1.107421875rem, 0.6955434782608696rem + 1.8305706521739133vw, 2.16rem);
-  --font-scale-3: clamp(1.245849609375rem, 0.7190951086956524rem + 2.341131114130434vw, 2.5919999999999996rem);
-  --font-scale-4: clamp(1.401580810546875rem, 0.7329124320652175rem + 2.9718594599184778vw, 3.1104rem);
-  --font-scale-5: clamp(1.5767784118652344rem, 0.7332430078125004rem + 3.749046240234373vw, 3.732479999999999rem);
-  --font-scale-6: clamp(1.7738757133483887rem, 0.7153582098760192rem + 4.704522237654976vw, 4.478975999999999rem);
   --font-min-font: 14;
   --font-max-font: 24;
   --font-min-viewport: 360;
   --font-max-viewport: 1280;
   --font-scale-min: 1.125;
   --font-scale-max: 1.2;
-  --font-steps: 0,1,2,3,4,5,6;
+  --font-steps: h1,h2,h3,h4,h5,h6,md,sm,xs;
+  --font-weight-thin: 100;
   --font-weight-light: 300;
   --font-weight-normal: 400;
   --font-weight-medium: 500;
   --font-weight-bold: 700;
+  --font-weight-black: 900;
+  --font-line-height-1: 1;
+  --font-line-height-2: 1.1;
+  --font-line-height-3: 1.25;
+  --font-line-height-4: 1.3;
+  --font-line-height-5: 1.35;
+  --font-line-height-6: 1.4;
+  --font-line-height-7: 1.45;
+  --font-line-height-8: 1.5;
+  --font-scale-0: clamp(0.875rem, 0.630rem + 1.087vw, 1.500rem);
+  --font-scale-1: clamp(0.984rem, 0.665rem + 1.418vw, 1.800rem);
+  --font-scale-2: clamp(1.107rem, 0.696rem + 1.831vw, 2.160rem);
+  --font-scale-3: clamp(1.246rem, 0.719rem + 2.341vw, 2.592rem);
+  --font-scale-4: clamp(1.402rem, 0.733rem + 2.972vw, 3.110rem);
+  --font-scale-5: clamp(1.577rem, 0.733rem + 3.749vw, 3.732rem);
+  --font-scale-6: clamp(1.774rem, 0.715rem + 4.705vw, 4.479rem);
+  --font-scale-7: clamp(1.996rem, 0.673rem + 5.877vw, 5.375rem);
+  --font-scale-8: clamp(2.245rem, 0.600rem + 7.312vw, 6.450rem);
 }

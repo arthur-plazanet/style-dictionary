@@ -2,7 +2,7 @@
 import StyleDictionary from 'style-dictionary'
 import { generateThemeCubeCSS } from '../cube-css/cube.formatter.js'
 import { toKebab } from '../utils/helpers.js'
-import { resolveTokenReferences, tokenName } from '../utils/tokens.js'
+import { getTokenName, resolveTokenReferences } from '../utils/tokens.js'
 import { generateThemeContent } from './helper.js'
 
 /**
@@ -24,13 +24,13 @@ import { generateThemeContent } from './helper.js'
  */
 function formatToThemeToken(token, options, dictionary, scope) {
   const privateVar = scope === 'private'
-
+  console.log(token.name)
   // const normal = tokens.map((t) => {
   // const originalValue = t.original?.value;
-
+  const tokenName = getTokenName(token).replace('theme-', '')
   return {
-    publicName: `--${toKebab(tokenName(token))}`,
-    privateName: `--_${toKebab(tokenName(token))}`,
+    publicName: `--${toKebab(tokenName)}`,
+    privateName: `--_${toKebab(tokenName)}`,
     value: resolveTokenReferences(token, options, dictionary, privateVar),
     category: token.attributes?.category,
     subsection: token.attributes?.subsection,

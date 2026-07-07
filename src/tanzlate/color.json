@@ -1,0 +1,263 @@
+{
+  "color": {
+    "primary": {
+      "100": {
+        "value": "{color-pool.blue-tz.100}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "200": {
+        "value": "{color-pool.blue-tz.200}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "300": {
+        "value": "{color-pool.blue-tz.300}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "400": {
+        "value": "{color-pool.blue-tz.400}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "500": {
+        "value": "{color-pool.blue-tz.500}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "600": {
+        "value": "{color-pool.blue-tz.600}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "700": {
+        "value": "{color-pool.blue-tz.700}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "800": {
+        "value": "{color-pool.blue-tz.800}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "900": {
+        "value": "{color-pool.blue-tz.900}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "base": {
+        "value": "{color-pool.blue-tz.base}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      }
+    },
+
+    "secondary": {
+      "100": {
+        "value": "{color-pool.yellow-tz.100}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "200": {
+        "value": "{color-pool.yellow-tz.200}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "300": {
+        "value": "{color-pool.yellow-tz.300}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "400": {
+        "value": "{color-pool.yellow-tz.400}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "500": {
+        "value": "{color-pool.yellow-tz.500}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "600": {
+        "value": "{color-pool.yellow-tz.600}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "700": {
+        "value": "{color-pool.yellow-tz.700}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "800": {
+        "value": "{color-pool.yellow-tz.800}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "900": {
+        "value": "{color-pool.yellow-tz.900}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "base": {
+        "value": "{color-pool.yellow-tz.base}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      }
+    },
+
+    "accent": {
+      "100": {
+        "value": "{color-pool.river-bed-my-pant.100}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "200": {
+        "value": "{color-pool.river-bed-my-pant.200}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "300": {
+        "value": "{color-pool.river-bed-my-pant.300}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "400": {
+        "value": "{color-pool.river-bed-my-pant.400}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "500": {
+        "value": "{color-pool.river-bed-my-pant.500}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "600": {
+        "value": "{color-pool.river-bed-my-pant.600}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "700": {
+        "value": "{color-pool.river-bed-my-pant.700}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "800": {
+        "value": "{color-pool.river-bed-my-pant.800}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "900": {
+        "value": "{color-pool.river-bed-my-pant.900}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "base": {
+        "value": "{color-pool.river-bed-my-pant.base}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      }
+    },
+
+    "neutral": {
+      "100": {
+        "value": "{color-pool.blue-sun-light.100}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "200": {
+        "value": "{color-pool.blue-sun-light.200}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "300": {
+        "value": "{color-pool.blue-sun-light.300}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "400": {
+        "value": "{color-pool.blue-sun-light.400}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "500": {
+        "value": "{color-pool.blue-sun-light.500}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "600": {
+        "value": "{color-pool.blue-sun-light.600}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "700": {
+        "value": "{color-pool.blue-sun-light.700}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "800": {
+        "value": "{color-pool.blue-sun-light.800}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "900": {
+        "value": "{color-pool.blue-sun-light.900}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "base": {
+        "value": "{color-pool.blue-sun-light.base}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      }
+    },
+
+    "info": {
+      "100": {
+        "value": "{color-pool.eastern-blue.100}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "200": {
+        "value": "{color-pool.eastern-blue.200}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "300": {
+        "value": "{color-pool.eastern-blue.300}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "400": {
+        "value": "{color-pool.eastern-blue.400}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "500": {
+        "value": "{color-pool.eastern-blue.base}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "600": {
+        "value": "{color-pool.eastern-blue.600}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "700": {
+        "value": "{color-pool.eastern-blue.700}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "800": {
+        "value": "{color-pool.eastern-blue.800}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      },
+      "900": {
+        "value": "{color-pool.eastern-blue.900}",
+        "type": "color",
+        "attributes": { "tokenTier": "semantic", "theme": "tanzlate" }
+      }
+    }
+  }
+}
