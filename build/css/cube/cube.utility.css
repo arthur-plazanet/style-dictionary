@@ -96,12 +96,14 @@
 .padding-top-lg { padding-top: var(--spacing-lg) } 
 .padding-top-xl { padding-top: var(--spacing-xl) } 
 .padding-bottom-0 { padding-bottom: 0 } 
+.padding-block { padding-block: var(--block-padding) } 
+.padding-block-x { padding-inline: var(--block-padding-x) } 
+.padding-block-y { padding-block: var(--block-padding-y) } 
 
 /* ------------------------------------------------------------ */
-/*                             Text                             */
+/*                         Text-center                         */
 /* ------------------------------------------------------------ */
-.text-center { text-align: center } 
-.text-dim { opacity: 0.7 } 
+.text-center- { text-align: center } 
 
 /* ------------------------------------------------------------ */
 /*                            Border                            */
@@ -183,3 +185,20 @@
 .bg-inset { background-color: var(--color-bg-inset) } 
 .bg-info { background-color: var(--color-bg-info) } 
 .bg-success { background-color: var(--color-bg-success) } 
+
+/* ------------------------------------------------------------ */
+/*                           Heading                           */
+/* ------------------------------------------------------------ */
+.heading-h1 { font-size: var(--heading-h1-size); font-weight: var(--heading-h1-weight); line-height: var(--heading-h1-line-height) } 
+.heading-h2 { font-size: var(--heading-h2-size); font-weight: var(--heading-h2-weight); line-height: var(--heading-h2-line-height) } 
+.heading-h3 { font-size: var(--heading-h3-size); font-weight: var(--heading-h3-weight); line-height: var(--heading-h3-line-height) } 
+.heading-h4 { font-size: var(--heading-h4-size); font-weight: var(--heading-h4-weight); line-height: var(--heading-h4-line-height) } 
+.heading-h5 { font-size: var(--heading-h5-size); font-weight: var(--heading-h5-weight); line-height: var(--heading-h5-line-height) } 
+.heading-h6 { font-size: var(--heading-h6-size); font-weight: var(--heading-h6-weight); line-height: var(--heading-h6-line-height) } 
+
+/* ------------------------------------------------------------ */
+/*                             Text                             */
+/* ------------------------------------------------------------ */
+.text-body { font-size: var(--text-body-size); font-weight: var(--text-body-weight); line-height: var(--text-body-line-height) } 
+.text-caption { font-size: var(--text-caption-size); font-weight: var(--text-caption-weight); line-height: var(--text-caption-line-height) } 
+.text-small { font-size: var(--text-small-size); font-weight: var(--text-small-weight); line-height: var(--text-small-line-height) } 

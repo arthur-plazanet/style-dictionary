@@ -13,7 +13,7 @@
     },
     "caption": {
       "size": {
-        "value": "var(--font-scale--2)"
+        "value": "var(--font-scale-2)"
       },
       "lineHeight": {
         "value": "1.4"
@@ -24,7 +24,7 @@
     },
     "small": {
       "size": {
-        "value": "var(--font-scale--1)"
+        "value": "var(--font-scale-1)"
       },
       "lineHeight": {
         "value": "1.4"
@@ -52,6 +52,28 @@
       },
       "lineHeight": {
         "value": "1.15"
+      },
+      "weight": {
+        "value": "var(--font-weight-bold)"
+      }
+    },
+    "h3": {
+      "size": {
+        "value": "var(--font-scale-2)"
+      },
+      "lineHeight": {
+        "value": "1.2"
+      },
+      "weight": {
+        "value": "var(--font-weight-bold)"
+      }
+    },
+    "h4": {
+      "size": {
+        "value": "var(--font-scale-1)"
+      },
+      "lineHeight": {
+        "value": "1.25"
       },
       "weight": {
         "value": "var(--font-weight-bold)"

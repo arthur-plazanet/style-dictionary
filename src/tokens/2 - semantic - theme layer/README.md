@@ -6,13 +6,11 @@ Semantic tokens answer the question:
 
 Semantic tokens define **meaning** inside the design system.
 
-## Why this term "semantic" is confusing designers and developers
+## Why they are also called "theme tokens" in this repo ?
 
-These tokens don't define the semantic in the HTML or front-end, they define meaning in the design system tokens hierarchy.
+**Because _Semantic_ alone is not clear enough for developers**
 
-> See [_About HTML semantics and front-end architecture_](https://nicolasgallagher.com/about-html-semantics-front-end-architecture/)
-
-## Why to use semantic tokens
+## Semantic tokens - common definitions
 
 - Use [aliasing](https://designtokens.fyi/#/terms/alias/) to create a presentation interface that is decoupled from raw values.
 - They usually are usued in multiple locations, linked to a common purpose.
@@ -36,7 +34,19 @@ These tokens don't define the semantic in the HTML or front-end, they define mea
 /* etc. */
 ```
 
-If you wish to change your primary color, you only need to update `--color-primary-500` to point to another primitive color from the pool of colors.
+Basically it means that:
+
+> If you wish to change your primary color, you only need to update `--color-primary-500` to point to another primitive color from the pool of colors.
+
+Simple? But what is `primary` in terms of semantic?
+
+## Why this term "semantic" is confusing designers and developers
+
+These tokens don't define the semantic in the HTML or front-end, they define meaning in the design system tokens hierarchy.
+
+**Which can bring confusion to developers as the term semantic was already used in the front-end world to define the meaning of HTML elements and their role in the document structure.**
+
+> See [_About HTML semantics and front-end architecture_](https://nicolasgallagher.com/about-html-semantics-front-end-architecture/)
 
 ## How semantic tokens are defined
 

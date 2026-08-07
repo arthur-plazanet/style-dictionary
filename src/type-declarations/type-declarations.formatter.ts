@@ -1,28 +1,4 @@
-import StyleDictionary from 'style-dictionary'
 import type { Format } from 'style-dictionary/types'
-
-/**
- * Generates a TypeScript interface declaration for all design tokens.
- *
- * @type {{ name: string; format: ({ dictionary }: FormatFnArguments) => string; }}
- *
- * Will return:
- * export interface YThemeToken {
- *   tokenName1: string;
- *   tokenName2: string;
- *   ...
- * }
- */
-StyleDictionary.registerFormat({
-  name: 'typescript/types-declaration',
-  format: function ({ dictionary }) {
-    const props = dictionary.tokens
-    console.log('📟 - props → ', props)
-    // const types = props.map((token) => `  '${token.name}': string;`).join("\n");
-
-    // return `export interface YThemeToken {\n${types}\n}\n`;
-  },
-})
 
 /**
  * Generates a TypeScript interface declaration for all design tokens.
@@ -79,6 +55,33 @@ ${interfaceBody}}
 }
 
 /**
+ * Generates a TypeScript object declaration for all design tokens with their values.
+ *
+ * Will return:
+ * export const tokens = {
+ *   border: {
+ *     width: {
+ *       base: '1px',
+ *       scale: '2px',
+ *     },
+ *   },
+ *   ...
+ * } as const;
+ */
+export const tokensObjectFormatter: Format = {
+  name: 'typescript/object-declarations',
+  format: function ({ dictionary }) {
+    const nestedObject = generateNestedObject(dictionary.tokens)
+    return `/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+export const tokens = ${JSON.stringify(nestedObject, null, 2)} as const;
+`
+  },
+}
+
+/**
  * Check if an object is a leaf token (has $value or value property)
  */
 function isToken(obj: Record<string, unknown>): boolean {
@@ -114,6 +117,31 @@ function generateNestedInterface(obj: Record<string, unknown>, depth = 0): strin
       const nested = generateNestedInterface(value as Record<string, unknown>, depth + 1)
       if (nested.trim()) {
         result += `${indent}${formatKey(key)}: {\n${nested}${indent}};\n`
+      }
+    }
+  }
+
+  return result
+}
+
+/**
+ * Recursively generate nested object from token tree
+ */
+function generateNestedObject(obj: Record<string, unknown>): Record<string, unknown> {
+  const result: Record<string, unknown> = {}
+
+  for (const key of Object.keys(obj)) {
+    const value = obj[key]
+
+    if (isToken(value as Record<string, unknown>)) {
+      // Leaf token - output value
+      result[key] =
+        (value as Record<string, unknown>).$value || (value as Record<string, unknown>).value
+    } else if (typeof value === 'object' && value !== null) {
+      // Nested object - recurse
+      const nested = generateNestedObject(value as Record<string, unknown>)
+      if (Object.keys(nested).length > 0) {
+        result[key] = nested
       }
     }
   }

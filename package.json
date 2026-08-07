@@ -1,7 +1,7 @@
 {
   "name": "unholy-design-tokens",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.1.0",
+  "description": "🗿 Unholy Design Tokens - A Practical Guide to Design Tokens (Without the Fluff)",
   "main": "dist/build-tokens.js",
   "module": "dist/build-tokens.js",
   "types": "dist/build-tokens.d.ts",
@@ -27,7 +27,7 @@
     "format": "prettier --write src/**/*.ts src/**/*.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Arthur Plazanet",
   "license": "Apache-2.0",
   "devDependencies": {
     "@eslint/css": "^0.14.1",

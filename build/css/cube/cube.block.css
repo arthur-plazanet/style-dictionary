@@ -3,16 +3,32 @@
  */
 
 :root {
-  --cube-block-card-bg: var(--_color-bg-neutral);
-  --cube-block-card-border: var(--_color-border-subtle);
-  --cube-block-card-radius: var(--_border-radius-medium);
-  --cube-block-card-padding: var(--_spacing-md);
-  --cube-block-button-padding-x: var(--_spacing-sm);
-  --cube-block-button-padding-y: var(--_spacing-xs);
-  --cube-block-button-radius: var(--_border-radius-medium);
-  --cube-block-button-text: var(--_color-text-primary);
-  --cube-block-button-bg: var(--_color-bg-primary);
-  --cube-block-button-bg-hover: var(--_color-bg-primary-hover);
-  --cube-block-checkbox-bg: var(--_color-bg-primary);
-  --cube-block-checkbox-padding: var(--_spacing-xs);
+  --cube-block-block-padding-x: var(--spacing-xs);
+  --cube-block-block-padding-y: var(--spacing-md);
+  --cube-block-block-padding: var(--block-padding-y) var(--block-padding-x);
+  --cube-block-card-bg: var(--color-bg-neutral);
+  --cube-block-card-border: var(--color-border-subtle);
+  --cube-block-card-radius: var(--border-radius-medium);
+  --cube-block-card-padding: var(--cube-block-block-padding);
+  --cube-block-button-padding-x: var(--spacing-xs);
+  --cube-block-button-padding-y: var(--spacing-md);
+  --cube-block-button-radius: var(--border-radius-medium);
+  --cube-block-button-text: var(--color-text-primary);
+  --cube-block-button-bg: var(--color-bg-primary);
+  --cube-block-button-bg-hover: var(--color-bg-primary-hover);
+  --cube-block-checkbox-bg: var(--color-bg-primary);
+  --cube-block-checkbox-padding: var(--spacing-xs);
+  --cube-block-dialog-bg: var(--color-bg-neutral);
+  --cube-block-dialog-border: var(--color-border-subtle);
+  --cube-block-dialog-radius: var(--border-radius-large);
+  --cube-block-dialog-padding: var(--spacing-lg);
+  --cube-block-dialog-stacking-index: var(--stacking-overlay);
+  --cube-block-dialog-opacity: var(--opacity-100);
+  --cube-block-menu-gap: var(--spacing-md);
+  --cube-block-menu-gap-dense: var(--spacing-sm);
+  --cube-block-menu-padding-top: var(--spacing-md);
+  --cube-block-menu-padding-bottom: var(--spacing-md);
+  --cube-block-menu-padding-top-dense: var(--spacing-sm);
+  --cube-block-menu-padding-bottom-dense: var(--spacing-sm);
+  --cube-block-menu-stacking-index: var(--stacking-overlay);
 }

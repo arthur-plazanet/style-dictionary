@@ -1,0 +1,8 @@
+{
+  "stacking": {
+    "base": { "value": 0 },
+    "1": { "value": 1 },
+    "scale-ratio": { "value": 100 }
+  },
+  "attributes": { "tokenTier": "primitive", "type": "stacking" }
+}

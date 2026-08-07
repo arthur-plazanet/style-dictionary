@@ -3,9 +3,9 @@ import {
   capitalizeFirstLetter,
   generateFigmaHeaderReference,
   generateHeader,
+  getTokenName,
   resolveTokenReferences,
   toKebab,
-  tokenName,
 } from '../utils'
 
 export const colorFormatter: Format = {
@@ -35,7 +35,7 @@ export const colorFormatter: Format = {
         content += generateHeader(tier)
       }
 
-      const name = `--${toKebab(tokenName(token))}`
+      const name = `--${toKebab(getTokenName(token))}`
       content += `${name}: ${value};\n`
     })
     return `${header}\n:root {\n${content}}`

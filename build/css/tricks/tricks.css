@@ -1,0 +1,10 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --tricks-is-toggled: ;
+  --tricks-is-not-toggled: initial;
+  --tricks-on: var(--is-toggled);
+  --tricks-off: var(--is-not-toggled);
+}

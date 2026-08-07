@@ -6,7 +6,7 @@
   --space-fluid-min: 1rem;
   --space-fluid-max: 1.5rem;
   --space-fluid-min-viewport: 360px;
-  --space-fluid-max-viewport: 1280px;
+  --space-fluid-max-viewport: 1920px;
   --space-unit-default: 1rem;
   --space-unit-fluid: clamp(var(--space-fluid-min), calc(var(--space-fluid-min) + (var(--space-fluid-max) - var(--space-fluid-min)) * ((100vw - var(--space-fluid-min-viewport)) / (var(--space-fluid-max-viewport) - var(--space-fluid-min-viewport)))), var(--space-fluid-max));
   --space-multiplier-unit: 1rem;

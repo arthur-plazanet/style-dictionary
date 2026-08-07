@@ -33,7 +33,7 @@
     },
     "overlay": {
       "zIndex": { "value": 1000 },
-      "opacity": { "value": 0 },
+      "opacity": { "value": -99 },
       "blur": { "value": "8px" }
     },
     "spaceUnit": {
@@ -47,6 +47,7 @@
       "padding": {
         "value": "{spacing.md}"
       }
-    }
+    },
+    "attributes": { "tokenTier": "semantic" }
   }
 }

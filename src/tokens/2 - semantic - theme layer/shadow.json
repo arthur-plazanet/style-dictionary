@@ -1,0 +1,8 @@
+{
+  "theme": {
+    "shadow-base": { "value": 1 },
+    "shadow-base-all": { "value": "0 1px 3px rgba(0, 0, 0, 0.1)" },
+    "shadow-scale": { "value": "1.5" }
+  },
+  "attributes": { "tokenTier": "theme" }
+}
